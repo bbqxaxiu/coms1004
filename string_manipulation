@@ -1,0 +1,35 @@
+String Manipulation
+
+Concepts: 
+char vs. String 
+char (not capitalized) is one of the 8 Java primitive types, along with boolean, integer, float, long, and so on. Primitive types are built-in to Java, and serve as the basis of data manipulation. 
+String is an actual class in the Java library, meaning if you go online and read Java docs you can see how the class is laid out (and how the makers of Java, i.e. Oracle) defined how it should work. 
+Java Documentation: https://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true 
+ALLL THE JAVA STUFF: https://docs.oracle.com/javase/7/docs/api/ (other familiar classes, e.g. Scanner, are here!) 
+Create a char using single quotes and create a String using double quotes. 
+Comparison 
+To compare a String to a String, you use .equals() 
+“T”.equals(“T”)
+Because a String is a real class in Java so you can’t just use ==
+To compare a char to a char, you use == 
+‘T’ == ‘T’ //returns true
+‘T’ == ‘t’ //returns false
+ASCII -- encodes numbers to characters
+Indexing
+0-indexed
+
+Useful Methods for String Manipulation (Programming Project 2):
+String.replace()
+String.charAt()
+String.substring()
+String.length()
+Character.getNumericValue()
+Explain wrapper classes
+Integer.parseInt()
+
+Examples
+String.replace()
+
+Resources
+https://www.tutorialspoint.com/java/java_strings.htm
+https://www.tutorialspoint.com/java/lang/java_lang_integer.htm
