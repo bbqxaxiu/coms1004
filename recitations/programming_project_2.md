@@ -26,7 +26,7 @@
  -  To compare a char to a char, you use ==
 	 - `'T' == 'T'`
 	 - ASCII: encodes every char to an integer.
-    - `'a' == 97 //returns true`
+    		- `'a' == 97 //returns true`
 
  - .equals() vs. ==
 	- .equals() is a method (check the Java docs for the String class) while as == is an operator.
