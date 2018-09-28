@@ -26,17 +26,13 @@
  -  To compare a char to a char, you use ==
 	 - `'T' == 'T'`
 	 - ASCII: encodes every char to an integer.
-    		- `'a' == 97 //returns true`
+	 	- `'a' == 97 //returns true`
 
  - .equals() vs. ==
 	- .equals() is a method (check the Java docs for the String class) while as == is an operator.
 	- The String class defines the .equals() method for comparison between two Strings. In the same way, you define a .equals() method for any class you create (and decide what conditions are used to evaluate equality).
 	- The == operator is used for comparison between two primitive types (as well as object references).
 
-  `String s1 = new String("HELLO")
-   String s2 = new String("HELLO")
-   s1 == s2 //returns false
-   s1.equals(s2) //returns true`
 
  # String Manipulation
 
