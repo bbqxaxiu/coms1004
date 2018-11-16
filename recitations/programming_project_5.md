@@ -111,7 +111,7 @@ public class Example {
 }
 ```
 
-If we run this code, we get the following error: 
+If we run this code, it compiles but during runtime we get the following error: 
 ```
 dyn-160-39-9-141:Desktop nhudoan$ java Example
 Exception in thread "main" java.lang.ArithmeticException: / by zero
