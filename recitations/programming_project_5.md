@@ -9,8 +9,7 @@
 
  -  Checked exceptions are typically the fault of the programmer. For example, an IndexOutOfBoundsException is thrown when the programmer does not manipulate/handle Arrays correctly. Unchecked exceptions, on the other hand, are typically out of the programmer's control. For example, an IOException is thrown when an error occurs with the reading/writing of a file (the file you are trying to read does not exist, you do not have permission to read the file, etc). 
 
-
-
+<br><br>
 
 ***Handling Checked vs. Unchecked Exceptions***
 
