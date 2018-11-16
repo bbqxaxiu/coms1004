@@ -1,4 +1,6 @@
-# Checked vs. Unchecked Exceptions
+# Exceptions
+
+***Checked vs. Unchecked Exceptions**
 
  -  A "checked" exception is checked during compile time while as an "unchecked" exception is not. Specifically, what this means is checked exceptions must be handled adequately before your program is allowed to compile but the same does not go for unchecked exceptions (i.e. your program will still compile even if you do not handle unchecked exceptions adequately). 
  
@@ -8,7 +10,7 @@
  -  Checked exceptions are typically the fault of the programmer. For example, an IndexOutOfBoundsException is thrown when the programmer does not manipulate/handle Arrays correctly. Unchecked exceptions, on the other hand, are typically out of the programmer's control. For example, an IOException is thrown when an error occurs with the reading/writing of a file (the file you are trying to read does not exist, you do not have permission to read the file, etc). 
 
 
-***Handling Checked vs. Unchecked Exceptions***
+***Checked vs. Unchecked Exceptions: Handling***
 
  - If a method may throw a checked exception, you must either 1) catch it using a ***try/catch block*** or 2) declare that the method throws the exception using the ***throws*** key word. 
 
