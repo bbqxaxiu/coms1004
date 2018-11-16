@@ -117,4 +117,4 @@ dyn-160-39-9-141:Desktop nhudoan$ java Example
 Exception in thread "main" java.lang.ArithmeticException: / by zero
         at Example.main(Example.java:10)
 ```
-ArithmeticException is an example of an unchecked exception (i.e. the fault of the programmer). 
+ArithmeticException is an example of an unchecked exception (i.e. the fault of the programmer). If anything you in your methods throws a checked exception, it is up to you to properly catch it so that your program terminates gracefully. We will take off points for programs that do not terminate gracefully and display a stack trace when an unchecked exception is thrown. 
