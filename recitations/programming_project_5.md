@@ -96,8 +96,6 @@ Note that while adding the ***throws*** clause allows the program to compile, it
 
 Note: the .readLine() method of the BufferedReader class, which you will find helpful in your programming project, skips to the next line of the file every time it is called. So in this case, at every iteration of the while loop we are resetting what str equals to the next line of the file (which will be read in as a String). We stop when we notice that what we've read in is null (i.e. we are at the end of the file). 
 
-- On the other hand, checked exceptions will not stop the program from compiling.
-
 
 Take the following example: 
 ```
