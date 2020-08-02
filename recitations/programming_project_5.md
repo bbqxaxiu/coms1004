@@ -4,7 +4,7 @@
 
  -  A "checked" exception is checked during compile time while as an "unchecked" exception is not. Specifically, what this means is checked exceptions must be handled adequately before your program is allowed to compile but the same does not go for unchecked exceptions (i.e. your program will still compile even if you do not handle unchecked exceptions adequately). 
  
-    - Here, checked exceptions are shown in red and unchecked exceptions are shown in blue. 
+    - Here, unchecked exceptions are shown in red and checked exceptions are shown in blue. 
     ![alt text](https://cdn2.howtodoinjava.com/wp-content/uploads/ExceptionHierarchyJava.png?style=centerme)
 
  -  Checked exceptions are typically out of the programmer's control. For example, an IOException is thrown when an error occurs with the reading/writing of a file (the file you are trying to read does not exist, you do not have permission to read the file, etc). Unchecked exceptions, on the other hand, are typically the fault of the programmer. For example, an IndexOutOfBoundsException is thrown when the programmer does not manipulate/handle Arrays correctly. 
